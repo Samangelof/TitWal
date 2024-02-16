@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "tw"
+version = "0.1.0"
+description = "Titanium Wallet"
+authors = ["kk"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+django-jazzmin = "^2.6.0"
+django-cors-headers = "^4.3.1"
+djangorestframework = "^3.14.0"
+djangorestframework-simplejwt = "^5.3.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
